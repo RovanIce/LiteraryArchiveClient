@@ -6,7 +6,7 @@ import { NavBar } from './nav-bar/nav-bar';
   selector: 'app-root',
   imports: [RouterOutlet, NavBar],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
+  styleUrl: './app.css'
 })
 export class App {
   protected readonly title = signal('comp584MGClient');
